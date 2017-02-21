@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+	// sort the arrays
+
+	function (arrA, arrB) {
+		arrA.slice(0, arrA.length).sort();
+		arrB.slice(0, arrB.length).sort();
+		for (var i = 0; i < arrA.length; i++)
+			if (arrA[i] !== arrB[i]) {
+				return false;
+			}
+	}
+	return true;
+       
+
+
+     
+  /*6. Write a function which takes in two arrays and determines if they contain the same number of the same values.
+[], [] -> true
+[2, 3, 4], [1, 2, 3] -> false
+["a", "c", "b"], ["a", "b", "c"] -> true
+[1, 1, 1], [1, 1, 1, 1] -> false
+ */     
+
+	</script>
+</body>
+</html>
